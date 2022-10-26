@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="view" alignment="CENTER" hgap="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" vgap="5.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="pantallaTextField" alignment="CENTER_RIGHT" editable="false" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" text="0.0" GridPane.columnSpan="5" />
+      <Button fx:id="button7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="7" textAlignment="CENTER" GridPane.rowIndex="1" />
+      <Button fx:id="button8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="button9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="button4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="4" GridPane.rowIndex="2" />
+      <Button fx:id="button5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="button6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button fx:id="button1" layoutX="251.0" layoutY="95.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="1" GridPane.rowIndex="3" />
+      <Button fx:id="button2" layoutX="15.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button fx:id="button3" layoutX="74.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button fx:id="button0" layoutX="192.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+      <Button fx:id="buttonPunto" layoutX="74.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onInsertarAction" style="-fx-background-radius: 3px;" text="." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button fx:id="buttonCE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onBorrarAction" style="-fx-background-radius: 3px;" text="ce" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button fx:id="buttonC" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onBorrarAction" style="-fx-background-radius: 3px;" text="c" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Button fx:id="buttonMultiplicar" layoutX="133.0" layoutY="95.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onOperarAction" style="-fx-background-radius: 3px;" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Button fx:id="buttonDividir" layoutX="192.0" layoutY="95.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onOperarAction" style="-fx-background-radius: 3px;" text="/" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Button fx:id="buttonRestar" layoutX="133.0" layoutY="130.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onOperarAction" style="-fx-background-radius: 3px;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button fx:id="buttonSumar" layoutX="133.0" layoutY="165.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onOperarAction" style="-fx-background-radius: 3px;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Button fx:id="igualButton" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onOperarAction" style="-fx-background-radius: 3px;" text="=" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="40.0" valignment="CENTER" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>
